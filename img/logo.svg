@@ -1,0 +1,66 @@
+<svg width="69" height="64" viewBox="0 0 69 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="g1803" filter="url(#filter0_bd_1_510)">
+<g id="g1805">
+<g id="Clip path group">
+<mask id="mask0_1_510" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="1" y="0" width="64" height="63">
+<g id="clipPath1811">
+<path id="path1809" d="M1.82227 1.52588e-05H64.6979V62.8756H1.82227V1.52588e-05Z" fill="white"/>
+</g>
+</mask>
+<g mask="url(#mask0_1_510)">
+<g id="g1807">
+<g id="g1813">
+<g id="path1815" filter="url(#filter1_bd_1_510)">
+<path d="M51.4846 58.3688H15.0708C11.6603 58.3688 8.89551 55.604 8.89551 52.1933V26.8255L30.4122 5.67792C32.0028 4.1145 34.5528 4.1145 36.1434 5.67792L57.6601 26.8255V52.1933C57.6601 55.604 54.8951 58.3688 51.4846 58.3688Z" stroke="#7986EC" stroke-width="3.1178" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" shape-rendering="crispEdges"/>
+</g>
+</g>
+<g id="g1817">
+<path id="path1819" d="M3.68164 31.9497L30.4119 5.67802C32.0024 4.11473 34.5523 4.11473 36.1429 5.67802L62.8731 31.9497" stroke="#7986EC" stroke-width="3.1178" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g id="g1821" filter="url(#filter2_bd_1_510)">
+<path id="path1823" d="M36.9366 31.9648V24.1949H29.5849V31.9648H21.8145V39.3166H29.5849V47.0864H36.9366V39.3166H44.706V31.9648H36.9366Z" stroke="#7986EC" stroke-width="2.07853" stroke-miterlimit="10" stroke-linejoin="round"/>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+<defs>
+<filter id="filter0_bd_1_510" x="0.0442705" y="0.867879" width="68.0253" height="62.6973" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feGaussianBlur in="BackgroundImageFix" stdDeviation="1.03927"/>
+<feComposite in2="SourceAlpha" operator="in" result="effect1_backgroundBlur_1_510"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dx="1.03927" dy="1.03927"/>
+<feGaussianBlur stdDeviation="1.29908"/>
+<feComposite in2="hardAlpha" operator="out"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.1 0"/>
+<feBlend mode="normal" in2="effect1_backgroundBlur_1_510" result="effect2_dropShadow_1_510"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect2_dropShadow_1_510" result="shape"/>
+</filter>
+<filter id="filter1_bd_1_510" x="5.25814" y="0.867879" width="57.5983" height="62.6973" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feGaussianBlur in="BackgroundImageFix" stdDeviation="1.03927"/>
+<feComposite in2="SourceAlpha" operator="in" result="effect1_backgroundBlur_1_510"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dx="1.03927" dy="1.03927"/>
+<feGaussianBlur stdDeviation="1.29908"/>
+<feComposite in2="hardAlpha" operator="out"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.1 0"/>
+<feBlend mode="normal" in2="effect1_backgroundBlur_1_510" result="effect2_dropShadow_1_510"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect2_dropShadow_1_510" result="shape"/>
+</filter>
+<filter id="filter2_bd_1_510" x="18.6966" y="21.0771" width="30.6859" height="30.6861" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feGaussianBlur in="BackgroundImageFix" stdDeviation="1.03927"/>
+<feComposite in2="SourceAlpha" operator="in" result="effect1_backgroundBlur_1_510"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dx="1.03927" dy="1.03927"/>
+<feGaussianBlur stdDeviation="1.29908"/>
+<feComposite in2="hardAlpha" operator="out"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.1 0"/>
+<feBlend mode="normal" in2="effect1_backgroundBlur_1_510" result="effect2_dropShadow_1_510"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect2_dropShadow_1_510" result="shape"/>
+</filter>
+</defs>
+</svg>

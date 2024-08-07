@@ -1,0 +1,16 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+.wrapper {
+  max-width: 1096px;
+  margin: 0 auto; }
+
+.top__banner {
+  border-radius: 30px;
+  background: linear-gradient(0deg, #F2F1F6 0%, rgba(242, 241, 246, 0) 100%);
+  position: relative;
+  padding-top: 56px; }
+
+/*# sourceMappingURL=style.css.map */
