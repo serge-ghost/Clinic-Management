@@ -68,14 +68,14 @@
       border: 1px solid #E1E1E1;
       padding: 0 8px;
       border-bottom: 0;
-      background: #F6F6F6;
       text-transform: uppercase;
       color: #000;
       font-family: Overpass, sans-serif;
       font-size: 14px;
       font-style: normal;
       font-weight: 600;
-      line-height: normal; }
+      line-height: normal;
+      background-color: #F6F6F6; }
       .main__nav-pills .nav-item .nav-link.active {
         background: #ffffff; }
 
