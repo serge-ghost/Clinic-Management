@@ -2,31 +2,29 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
-    <link rel="stylesheet" href="css/vendors/vendors.css">
-    <link rel="stylesheet" href="css/style.css">
+
 </head>
 <body>
 
 
-<div class="wrapper">
-    <div class="top__banner">
-        <div class="logo__block d-flex">
-            <img src="img/logo.svg" alt="" class="logo__block__img">
+<div class="wrapper" style="max-width: 1096px;margin: 0 auto;padding: 0 10px;overflow: hidden;">
+    <div class="top__banner d-flex flex-column align-items-center" style="border-radius: 30px;background: linear-gradient(0deg, #F2F1F6 0%, rgba(242, 241, 246, 0) 100%);position: relative;padding-top: 35px;height: 242px;">
+        <div class="logo__block d-flex align-items-center" style="margin-bottom: 21px;">
+            <img src="img/logo.svg" alt="" class="logo__block__img" style="margin-right: 10px;display: flex;width: 62px;height: 62px;">
             <div class="logo__block__text">
-                <div class="logo__block__text__top">CLINIC</div>
-                <div class="logo__block__text__bottom">MANAGEMENT</div>
+                <div class="logo__block__text__top" style="color: #7986EC;font-family: Overpass, sans-serif;font-size: 18px;font-style: normal;font-weight: 700;line-height: normal;letter-spacing: 9px;">CLINIC</div>
+                <div class="logo__block__text__bottom" style="color: #7986EC;font-family: Overpass, sans-serif;font-size: 14.803px;font-style: normal;font-weight: 700;line-height: normal;">MANAGEMENT</div>
             </div>
         </div>
-        <img src="img/erp_logo.png" alt="" class="erp__logo">
-        <div class="top__banner__version">ver 2.0</div>
+        <img src="img/erp_logo.png" alt="" class="erp__logo" style="width: 70px;height: 12px;display: flex;margin-bottom: 14px;">
+        <div class="top__banner__version" style="color: rgba(0, 0, 0, 0.1);font-family: Overpass, sans-serif;font-size: 14px;font-style: normal;font-weight: 400;line-height: normal;text-transform: uppercase;">ver 2.0</div>
     </div>
-    <div class="sub__banner">
-        <h2 class="sub__banner__title">Clinic Management App</h2>
-        <p class="sub__banner__desc">
+    <div class="sub__banner" style="position: relative;z-index: 1;margin: -70px auto 32px;text-align: center;padding: 55px 10px 50px;width: 100%;max-width: 687px;height: 203px;flex-shrink: 0;border-radius: 35px;background: #FFF;box-shadow: 5px 5px 14px 0px rgba(0, 0, 0, 0.05);">
+        <h2 class="sub__banner__title" style="color: #7986EC;font-family: Overpass, sans-serif;font-size: 24px;font-style: normal;font-weight: 700;line-height: normal;margin-bottom: 32px;">Clinic Management App</h2>
+        <p class="sub__banner__desc" style="max-width: 452px;width: 100%;margin: 0 auto;color: #797979;text-align: center;font-family: Overpass, sans-serif;font-size: 16px;font-style: normal;font-weight: 400;line-height: normal;">
             Optimize your hospital or clinic operations. Automate the administrative tasks and shift your focus on
             patient care.
         </p>
@@ -35,76 +33,79 @@
 
     </div>
     <div class="main__content">
-        <ul class="nav nav-pills" id="management" role="tablist">
-            <li class="nav-item" role="presentation">
-                <a class="nav-link active" id="features-tab" data-bs-toggle="tab" data-bs-target="#features"
-                        type="button"
-                        role="tab" aria-controls="features" aria-selected="true">Features
+        <ul class="nav nav-pills main__nav-pills" id="management" role="tablist" style="justify-content: center;">
+            <li class="nav-item" role="presentation" style="margin: 0 7px;width: 100%;max-width: 150px;">
+                <a class="nav-link active" id="features-tab" data-bs-toggle="tab" data-bs-target="#features" type="button" role="tab" aria-controls="features" aria-selected="true" style="width: 100%;height: 45px;display: inline-flex;align-items: center;justify-content: center;border-radius: 10px 10px 0 0;border: 1px solid #E1E1E1;padding: 0 8px;border-bottom: 0;background: #ffffff;text-transform: uppercase;color: #000;font-family: Overpass, sans-serif;font-size: 14px;font-style: normal;font-weight: 600;line-height: normal;">Features
                 </a>
             </li>
-            <li class="nav-item" role="presentation">
-                <a class="nav-link" id="support-tab" data-bs-toggle="tab" data-bs-target="#support" type="button"
-                        role="tab" aria-controls="support" aria-selected="false">support
+            <li class="nav-item" role="presentation" style="margin: 0 7px;width: 100%;max-width: 150px;">
+                <a class="nav-link" id="support-tab" data-bs-toggle="tab" data-bs-target="#support" type="button" role="tab" aria-controls="support" aria-selected="false" style="width: 100%;height: 45px;display: inline-flex;align-items: center;justify-content: center;border-radius: 10px 10px 0 0;border: 1px solid #E1E1E1;padding: 0 8px;border-bottom: 0;background: #F6F6F6;text-transform: uppercase;color: #000;font-family: Overpass, sans-serif;font-size: 14px;font-style: normal;font-weight: 600;line-height: normal;">support
                 </a>
             </li>
-            <li class="nav-item" role="presentation">
-                <a class="nav-link" id="user__guide-tab" data-bs-toggle="tab" data-bs-target="#user__guide"
-                        type="button"
-                        role="tab" aria-controls="user__guide" aria-selected="false">User gUIDE
+            <li class="nav-item" role="presentation" style="margin: 0 7px;width: 100%;max-width: 150px;">
+                <a class="nav-link" id="user__guide-tab" data-bs-toggle="tab" data-bs-target="#user__guide" type="button" role="tab" aria-controls="user__guide" aria-selected="false" style="width: 100%;height: 45px;display: inline-flex;align-items: center;justify-content: center;border-radius: 10px 10px 0 0;border: 1px solid #E1E1E1;padding: 0 8px;border-bottom: 0;background: #F6F6F6;text-transform: uppercase;color: #000;font-family: Overpass, sans-serif;font-size: 14px;font-style: normal;font-weight: 600;line-height: normal;">User gUIDE
                 </a>
             </li>
         </ul>
-        <div class="tab-content" id="managementContent">
-            <div class="tab-pane fade show active" id="features" role="tabpanel" aria-labelledby="features-tab">
-                <h2 class="features__title">
-                    TOP Features / Highlights
-                </h2>
-                <div class="row">
-                    <div class="col-md-6 col-sm-12">
-                        <div class="features__item">
-                            <img src="img/icons/health.svg" alt="" class="features__item__icon">
-                            <h3 class="features__item__title">Patient Cards</h3>
-                            <p class="features__item__desc">
+        <div class="tab-content main__tab-content" id="managementContent">
+            <div class="main__tab-pane tab-pane fade show active" id="features" role="tabpanel" aria-labelledby="features-tab" style="border-radius: 30px;border: 1px solid #E1E1E1;padding: 130px 70px;">
+
+                <div class="row justify-content-center">
+                    <div class="col-sm-12">
+                        <h2 class="features__title text-center" style="color: #7986EC;font-family: Overpass, sans-serif;font-size: 24px;font-style: normal;font-weight: 700;line-height: normal;margin-bottom: 36px;">
+                            TOP Features / <span style="font-weight: 300;">Highlights</span>
+                        </h2>
+                    </div>
+                </div>
+                <div class="row justify-content-center g-5">
+                    <div class="col-md-5 col-sm-12">
+                        <div class="features__item" style="text-align: center;">
+                            <img src="img/icons/health.svg" alt="" class="features__item__icon" style="width: 45px;height: 45px;display: inline-flex;margin-bottom: 14px;">
+                            <h3 class="features__item__title" style="color: #6877EB;text-align: center;font-family: Overpass, sans-serif;font-size: 16px;font-style: normal;font-weight: 700;line-height: normal;text-transform: uppercase;margin-bottom: 6px;">Patient Cards</h3>
+                            <p class="features__item__desc" style="color: #797979;text-align: center;font-family: Overpass, sans-serif;font-size: 14px;font-style: normal;font-weight: 500;line-height: normal;">
                                 Create patient cards with a few clicks. Generate unique medical record numbers (MRN) and
                                 store personal and medical records on the card for improved clinician-patient
                                 communications. Create patients' consent forms and have them e-signed.
                             </p>
                         </div>
                     </div>
-                    <div class="col-md-6 col-sm-12">
-                        <div class="features__item">
-                            <img src="img/icons/user_id.svg" alt="" class="features__item__icon">
-                            <h3 class="features__item__title">Doctor Assessment</h3>
-                            <p class="features__item__desc">
+                    <div class="col-md-5 col-sm-12">
+                        <div class="features__item" style="text-align: center;">
+                            <img src="img/icons/user_id.svg" alt="" class="features__item__icon" style="width: 45px;height: 45px;display: inline-flex;margin-bottom: 14px;">
+                            <h3 class="features__item__title" style="color: #6877EB;text-align: center;font-family: Overpass, sans-serif;font-size: 16px;font-style: normal;font-weight: 700;line-height: normal;text-transform: uppercase;margin-bottom: 6px;">Doctor Assessment</h3>
+                            <p class="features__item__desc" style="color: #797979;text-align: center;font-family: Overpass, sans-serif;font-size: 14px;font-style: normal;font-weight: 500;line-height: normal;">
                                 Store all medical records in one place. Access all the documented information directly
                                 from the patient card. View the nurse's assessment beside the doctor’s assessment to
                                 better understand each patient's health status.
                             </p>
                         </div>
                     </div>
-                    <div class="col-md-6 col-sm-12">
-                        <div class="features__item">
-                            <img src="img/icons/delivery.svg" alt="" class="features__item__icon">
-                            <h3 class="features__item__title">Product Inventory</h3>
-                            <p class="features__item__desc">
+                    <div class="col-md-5 col-sm-12">
+                        <div class="features__item" style="text-align: center;">
+                            <img src="img/icons/delivery.svg" alt="" class="features__item__icon" style="width: 45px;height: 45px;display: inline-flex;margin-bottom: 14px;">
+                            <h3 class="features__item__title" style="color: #6877EB;text-align: center;font-family: Overpass, sans-serif;font-size: 16px;font-style: normal;font-weight: 700;line-height: normal;text-transform: uppercase;margin-bottom: 6px;">Product Inventory</h3>
+                            <p class="features__item__desc" style="color: #797979;text-align: center;font-family: Overpass, sans-serif;font-size: 14px;font-style: normal;font-weight: 500;line-height: normal;">
                                 Manage the availability of your medications and equipment. Have your inventory
                                 automatically updated with every treatment and view product specifications easily.
                             </p>
                         </div>
                     </div>
-                    <div class="col-md-6 col-sm-12">
-                        <div class="features__item">
-                            <img src="img/icons/chat.svg" alt="" class="features__item__icon">
-                            <h3 class="features__item__title">Treatments and Billing</h3>
-                            <p class="features__item__desc">
+                    <div class="col-md-5 col-sm-12">
+                        <div class="features__item" style="text-align: center;">
+                            <img src="img/icons/chat.svg" alt="" class="features__item__icon" style="width: 45px;height: 45px;display: inline-flex;margin-bottom: 14px;">
+                            <h3 class="features__item__title" style="color: #6877EB;text-align: center;font-family: Overpass, sans-serif;font-size: 16px;font-style: normal;font-weight: 700;line-height: normal;text-transform: uppercase;margin-bottom: 6px;">Treatments and Billing</h3>
+                            <p class="features__item__desc" style="color: #797979;text-align: center;font-family: Overpass, sans-serif;font-size: 14px;font-style: normal;font-weight: 500;line-height: normal;">
                                 Create and update treatment plans while monitoring progress based on the documented
                                 data. Generate invoices and provide a note of all charges using Odoo Sales, integrated
                                 into the Clinic Management App.
                             </p>
                         </div>
                     </div>
-                    <div class="col-md-12">
-                        <div class="tab__banner">
+
+                </div>
+                <div class="row justify-content-center g-5">
+                    <div class="col-md-10">
+                        <div class="tab__banner" style="border-radius: 16.324px;background: linear-gradient(149deg, #F4F7F7 -1.01%, #FFF 27.14%, #EFF0F0 63.28%, #F2F5F5 79.14%);box-shadow: 2.721px 2.721px 27.207px 0px rgba(0, 0, 0, 0.1);">
                             <h2 class="tab__banner__title">Clinic Management Module</h2>
                             <div class="tab__banner__bottom">
                                 <p class="tab__banner__desc">
@@ -117,54 +118,56 @@
                             <img src="img/tab__banner.png" alt="" class="tab__banner__img">
                         </div>
                     </div>
-                    <div class="inside__block">
-                        <h2 class="inside__block__title">A Look Inside the App</h2>
+                </div>
+                <div class="inside__block">
+                    <h2 class="inside__block__title">A Look Inside the App</h2>
 
-                            <div class="d-flex align-items-start inside__tab__block">
-                                <div class="nav flex-column nav-pills me-3" id="v-pills-tab" role="tablist" aria-orientation="vertical">
-                                    <a class="nav-link active" id="v-pills-patients-tab" data-bs-toggle="pill" data-bs-target="#v-pills-patients" type="button" role="tab" aria-controls="v-pills-patients" aria-selected="true">Patients Module</a>
-                                    <a class="nav-link" id="v-pills-doctor-tab" data-bs-toggle="pill" data-bs-target="#v-pills-doctor" type="button" role="tab" aria-controls="v-pills-doctor" aria-selected="false">Doctor Assessment Module</a>
-                                    <a class="nav-link" id="v-pills-treatment-tab" data-bs-toggle="pill" data-bs-target="#v-pills-treatment" type="button" role="tab" aria-controls="v-pills-treatment" aria-selected="false">Treatment Module</a>
+                    <div class="d-flex align-items-start inside__tab__block">
+                        <div class="nav flex-column nav-pills me-3" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                            <a class="nav-link active" id="v-pills-patients-tab" data-bs-toggle="pill" data-bs-target="#v-pills-patients" type="button" role="tab" aria-controls="v-pills-patients" aria-selected="true">Patients Module</a>
+                            <a class="nav-link" id="v-pills-doctor-tab" data-bs-toggle="pill" data-bs-target="#v-pills-doctor" type="button" role="tab" aria-controls="v-pills-doctor" aria-selected="false">Doctor Assessment Module</a>
+                            <a class="nav-link" id="v-pills-treatment-tab" data-bs-toggle="pill" data-bs-target="#v-pills-treatment" type="button" role="tab" aria-controls="v-pills-treatment" aria-selected="false">Treatment Module</a>
 
-                                </div>
-                                <div class="tab-content" id="v-pills-tabContent">
-                                    <div class="tab-pane fade show active" id="v-pills-patients" role="tabpanel" aria-labelledby="v-pills-patients-tab">
-                                        <img src="img/patients_module/1.png" alt="" class="module__img">
-                                        <img src="img/patients_module/2.png" alt="" class="module__img">
-                                    </div>
-                                    <div class="tab-pane fade" id="v-pills-doctor" role="tabpanel" aria-labelledby="v-pills-doctor-tab">
-                                        <img src="img/doctor_assessment_module/1.png" alt="" class="module__img">
-                                        <img src="img/doctor_assessment_module/2.png" alt="" class="module__img">
-                                    </div>
-                                    <div class="tab-pane fade" id="v-pills-treatment" role="tabpanel" aria-labelledby="v-pills-treatment-tab">
-                                        <img src="img/treatment_module/1.png" alt="" class="module__img">
-                                        <img src="img/treatment_module/2.png" alt="" class="module__img">
-                                    </div>
-                                </div>
+                        </div>
+                        <div class="tab-content" id="v-pills-tabContent">
+                            <div class="tab-pane fade show active" id="v-pills-patients" role="tabpanel" aria-labelledby="v-pills-patients-tab">
+                                <img src="img/patients_module/1.png" alt="" class="module__img">
+                                <img src="img/patients_module/2.png" alt="" class="module__img">
                             </div>
-
-                    </div>
-                    <div class="user__guide">
-                        <h2 class="user__guide__title">Read User Guide</h2>
-                        <img src="img/icons/clipboard_list.svg" alt="" class="user__guide__icon">
-                        <div class="user__guide__link">
-                            <div class="user__guide__link__btn">Copy Link</div>
-                            bit.ly/linkapetqstex
+                            <div class="tab-pane fade" id="v-pills-doctor" role="tabpanel" aria-labelledby="v-pills-doctor-tab">
+                                <img src="img/doctor_assessment_module/1.png" alt="" class="module__img">
+                                <img src="img/doctor_assessment_module/2.png" alt="" class="module__img">
+                            </div>
+                            <div class="tab-pane fade" id="v-pills-treatment" role="tabpanel" aria-labelledby="v-pills-treatment-tab">
+                                <img src="img/treatment_module/1.png" alt="" class="module__img">
+                                <img src="img/treatment_module/2.png" alt="" class="module__img">
+                            </div>
                         </div>
                     </div>
-                </div>
-            </div>
-            <div class="tab-pane fade" id="support" role="tabpanel" aria-labelledby="support-tab">
-                <h2 class="features__title">
-                    Create a Support Ticket
-                </h2>
-                <div class="row">
 
                 </div>
+                <div class="user__guide">
+                    <h2 class="user__guide__title">Read User Guide</h2>
+                    <img src="img/icons/clipboard_list.svg" alt="" class="user__guide__icon">
+                    <div class="user__guide__link">
+                        <div class="user__guide__link__btn">Copy Link</div>
+                        bit.ly/linkapetqstex
+                    </div>
+                </div>
             </div>
-            <div class="tab-pane fade" id="user__guide" role="tabpanel" aria-labelledby="user__guide-tab">3</div>
+        </div>
+        <div class="main__tab-pane tab-pane fade" id="support" role="tabpanel" aria-labelledby="support-tab" style="border-radius: 30px;border: 1px solid #E1E1E1;padding: 130px 70px;">
+            <h2 class="features__title" style="color: #7986EC;font-family: Overpass, sans-serif;font-size: 24px;font-style: normal;font-weight: 700;line-height: normal;margin-bottom: 36px;">
+                Create a Support Ticket
+            </h2>
+            <div class="row">
+
+            </div>
+        </div>
+        <div class="main__tab-pane tab-pane fade" id="user__guide" role="tabpanel" aria-labelledby="user__guide-tab" style="border-radius: 30px;border: 1px solid #E1E1E1;padding: 130px 70px;">3
         </div>
     </div>
+
     <div class="footer__block">
         <div class="d-flex justify-content-around align-items-center">
             <img src="img/erp_footer.png" alt="" class="footer__block__logo">
@@ -185,3 +188,4 @@
 <script src="../../js/bootstrap.min.js"></script>
 <script src="../../js/script.js"></script>
 </body>
+</html>
