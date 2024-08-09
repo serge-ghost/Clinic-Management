@@ -150,6 +150,9 @@
   font-weight: 500;
   line-height: normal; }
 
+.inside__block {
+  margin-top: 100px; }
+
 .inside__block__title {
   color: #7986EC;
   text-align: center;
