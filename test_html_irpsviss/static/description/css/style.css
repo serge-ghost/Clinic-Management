@@ -6,7 +6,6 @@
 
 .top__banner {
   border-radius: 30px;
-  background: linear-gradient(0deg, #F2F1F6 0%, rgba(242, 241, 246, 0) 100%);
   position: relative;
   padding-top: 35px;
   height: 242px; }
@@ -77,7 +76,8 @@
 .main__tab-pane__border_first {
   border-radius: 30px;
   border: 1px solid #E1E1E1;
-  padding: 130px 10px 320px; }
+  padding: 130px 10px 320px;
+  background: #ffffff; }
 
 .sub__banner {
   position: relative;
@@ -89,9 +89,7 @@
   max-width: 687px;
   height: 203px;
   flex-shrink: 0;
-  border-radius: 35px;
-  background: #FFF;
-  box-shadow: 5px 5px 14px 0px rgba(0, 0, 0, 0.05); }
+  border-radius: 35px; }
 
 .sub__banner__title {
   color: #7986EC;
@@ -162,12 +160,7 @@
   margin-top: 70px;
   margin-bottom: 45px;
   position: relative;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  border-radius: 16px;
-  background: linear-gradient(149deg, #F4F7F7 -1.01%, #FFF 27.14%, #EFF0F0 63.28%, #F2F5F5 79.14%);
-  box-shadow: 2.721px 2.721px 27.207px 0px rgba(0, 0, 0, 0.1); }
+  border-radius: 16px; }
 
 .tab__banner__img {
   position: absolute;
@@ -249,6 +242,13 @@
   border-radius: 30px;
   border: 1px solid #E1E1E1;
   margin-bottom: 17px;
-  background: #ffffff; }
+  background-color: #ffffff; }
+
+.empty__block {
+  width: 100%;
+  height: 200px;
+  border-radius: 30px 30px 0 0;
+  margin-bottom: -65px;
+  margin-top: -50px; }
 
 /*# sourceMappingURL=style.css.map */
