@@ -64,7 +64,7 @@
   .nav-item {
     margin: 0 7px;
     width: 100%;
-    max-width: 150px;
+    max-width: 145px;
 
     .nav-link {
       width: 100%;;
@@ -178,7 +178,7 @@
 }
 
 
-.inside__block{
+.inside__block {
   margin-top: 100px;
 }
 
@@ -308,4 +308,27 @@
 .footer__block__icon {
   width: 24px;
   height: 24px;
+}
+
+.support__container {
+  border-radius: 40px;
+  border: 1px solid #E1E1E1;
+  width: 90%;
+}
+
+.support__block__title{
+  color: #000;
+  font-family: Overpass, sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.support__block__desc{
+  color: #797979;
+  font-family: Overpass, sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
 }
