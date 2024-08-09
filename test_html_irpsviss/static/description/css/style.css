@@ -2,7 +2,8 @@
   max-width: 1096px;
   margin: 0 auto;
   overflow: hidden;
-  padding: 100px 0; }
+  padding: 100px 0;
+  border-radius: 30px; }
 
 .top__banner {
   border-radius: 30px;
