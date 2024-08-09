@@ -76,8 +76,7 @@
 .main__tab-pane__border_first {
   border-radius: 30px;
   border: 1px solid #E1E1E1;
-  padding: 130px 10px 320px;
-  background: #ffffff; }
+  padding: 130px 10px 320px; }
 
 .sub__banner {
   position: relative;
@@ -163,7 +162,6 @@
   border-radius: 16px; }
 
 .tab__banner__img {
-  position: absolute;
   right: 25px;
   bottom: 0;
   z-index: -1;
